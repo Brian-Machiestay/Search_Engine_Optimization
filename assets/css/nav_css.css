@@ -1,0 +1,31 @@
+#header {
+    display: flex;
+    background-color: black;
+    height: 50px;
+}
+#header h1 {
+    margin-right: auto;
+    color: white;
+    background-color: aquamarine;
+    height: 80%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+#navigation ul {
+    display: flex;
+    list-style-type: none;
+}
+
+#navigation ul li {
+    border: 1px solid blue;
+}
+.hero-banner {
+    background-image: url(../images/02-hero-bg.jpg);
+    height: 200px;
+    background-repeat: round;
+}
+.hero-banner h2 {
+    background-color: aquamarine;
+    width: 220px;
+    display: block;
+}
