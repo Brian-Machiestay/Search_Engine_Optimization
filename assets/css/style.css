@@ -1,13 +1,16 @@
+/* override some default values*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* applies to all content of the body unless overriden */
 body {
     background-color: #d9dcd6;
 }
 
+/* styles the header */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,18 @@ body {
     color: #ffffff;
 }
 
+/* styles all h1's in the header */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* styles all h1's in the header that has the class 'sea' */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* styles the navigation */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +38,29 @@ body {
     font-size: 20px;
 }
 
+/* removes the style type from the navigation titles */
 .header nav ul {
     list-style-type: none;
 }
 
+/* puts navigation on the right */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* styles all links */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* make all paragraphs 16px */
 p {
     font-size: 16px;
 }
 
+/* creates a space for the image and insert an image */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,16 +70,19 @@ p {
     background-position: center;
 }
 
+/* clear text from the left side of image */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* clear text from right side of image */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* style the content class */
 .content {
     width: 75%;
     display: inline-block;
