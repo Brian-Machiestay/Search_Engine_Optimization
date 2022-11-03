@@ -7,6 +7,7 @@ This is done by including semantic elements throughout the pages so that it can 
 
 ## Usage
 If all is well, then there is no difference between an inaccessible page and an accessible one visually, the difference becomes subtle when a link breaks or one site shows up in searches more than yours. Below is the difference between a page when all is well and an accessible page when things break.
+
 The original page
 
 ![when all is well](./assets/images/acessibily_example_orig.jpg)
